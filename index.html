@@ -1,0 +1,1314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/fonts/feather/feather.css" />
+    <link rel="stylesheet" href="./assets/libs/flatpickr/dist/flatpickr.min.css" />
+    <link rel="stylesheet" href="./assets/libs/quill/dist/quill.core.css" />
+    <link rel="stylesheet" href="./assets/libs/highlightjs/styles/vs2015.css" />
+
+    <link rel="icon" type="image/png" href="https://www.synthetix.io/favicon-32x32.png"/><meta name="theme-color" content="#0D0A31"/><meta name="description" content="Synthetix is a crypto-backed synthetic asset platform that provides on-chain exposure to real-world currencies, commodities, stocks, and indices. . ."/>
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/theme-dark.min.css">
+    <!-- Title -->
+    <title>Synthetix - Get started</title>
+
+  </head>
+  <body>
+
+    <!-- MODALS
+    ================================================== -->
+    <!-- Modal: create wallet -->
+    <!-- IDEA: modal modal-onboarding-exchange -->
+    <div class="modal fade fixed-right" id="modal-onboarding-exchange" tabindex="-1" role="dialog" aria-labelledby="modal-onboarding-exchange" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-vertical bg-white" role="document">
+        <div class="modal-content bg-violet">
+          <div class="modal-body p-lg-0">
+            <div class="d-inline-block w-lg-60">
+              <button class="btn btn-link text-white position-absolute mt-n4 ml-n4 ml-lg-0 mt-lg-0" type="button" name="button" data-dismiss="modal" aria-label="Close">
+                <i class="fe fe-arrow-left h2"></i>
+              </button>
+              <div class="row justify-content-center">
+                <div class="col col-lg-8 py-4">
+                  <form class="tab-content pt-3 pb-6" id="wizardSteps">
+                    <div class="tab-pane fade show active" id="wizardStepOne" role="tabpanel" aria-labelledby="wizardTabOne">
+
+                      <!-- Header -->
+                      <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+
+                          <!-- Pretitle -->
+                          <h6 class="mb-4 text-uppercase text-soft-purple">
+                            Step 1 of 3
+                          </h6>
+
+                          <!-- Title -->
+                          <h1 class="mb-3">
+                            Let’s get you a wallet to trade
+                          </h1>
+
+                          <!-- Subtitle -->
+                          <p class="mb-5 text-soft-purple">
+                            The simplest way to access Synthetix is to create a wallet with Argent wallet. Learn why in our <a class="text-white" href="#faq">FAQ</a>.
+                          </p>
+
+                        </div>
+                      </div> <!-- / .row -->
+                      <div class="avatar avatar-lg d-block mx-auto mb-4">
+                        <img src="assets/img/argent-animated-logo.gif" class="avatar-img rounded-circle" alt="Argent logo">
+                      </div>
+                      <p class="text-soft-purple text-center small">Download the app</p>
+                      <div class="row no-gutters align-items-center justify-content-center mx-n3 mb-5">
+                        <div class="col-auto col-lg-auto mb-lg-0">
+                          <a href="https://apps.apple.com/us/app/argent/id1358741926" target="_blank">
+                            <img class="lift d-none d-lg-block" src="assets/img/btn_app-store.svg" alt="" height="48">
+                            <img class="lift d-block d-lg-none mx-auto" src="assets/img/btn_app-store.svg" alt="" height="40">
+                          </a>
+                        </div>
+                        <div class="col-auto col-lg-auto pl-2 pl-lg-3">
+                          <a href="https://play.google.com/store/apps/details?id=im.argent.contractwalletclient" target="_blank">
+                            <img class="lift d-none d-lg-block" src="assets/img/btn_play-store.svg" alt="" height="48">
+                            <img class="lift d-block d-lg-none mx-auto" src="assets/img/btn_play-store.svg" alt="" height="40">
+                          </a>
+                        </div>
+                      </div>
+                      <div class="list-group list-group-flush d-block d-lg-none">
+                        <div class="list-group-item border-0">
+                          <div class="row">
+                            <div class="col-auto">
+
+                              <!-- Avatar -->
+                              <div class="avatar avatar-sm">
+                                <div class="avatar-title font-size-lg rounded-circle text-white">
+                                  <i class="fe fe-shield"></i>
+                                </div>
+                              </div>
+
+                            </div>
+                            <div class="col ml-n2">
+
+                              <!-- Heading -->
+                              <p class="mb-0 text-white">
+                                Synthetix exists on the <a class="text-decoration-underline text-white" href="https://ethereum.org/" target="_blank">Ethereum blockchain</a>, which uses similar technology to Bitcoin to guarantee that ownership and control of your tickets rest with you. To interact with the Ethereum blockchain, you need a wallet like Argent.
+                              </p>
+
+                            </div>
+                          </div> <!-- / .row -->
+                        </div>
+                        <div class="list-group-item border-0">
+                          <div class="row">
+                            <div class="col-auto">
+
+                              <!-- Avatar -->
+                              <div class="avatar avatar-sm">
+                                <div class="avatar-title font-size-lg rounded-circle text-white">
+                                  <i class="fe fe-smartphone"></i>
+                                </div>
+                              </div>
+
+                            </div>
+                            <div class="col ml-n2">
+
+                              <!-- Heading -->
+                              <p class="mb-0 text-white">
+                                Transactions related to your Synthetix tickets purchased on Ethereum cost “gas”, which are micro amounts of Ethereum’s native cryptocurrency (Ether). Since most new users do not have Ether already, we strongly invite you to use <a class="text-decoration-underline text-white" href="http://argent.xyz/" target="_blank">Argent wallet</a> that will cover your cost of gas while using Synthetix. (Using other <a class="text-decoration-underline text-white" href="https://ethereum.org/wallets/" target="_blank">Ethereum wallets</a> may require you to pay for gas costs yourselves).
+                              </p>
+
+                            </div>
+                          </div> <!-- / .row -->
+                        </div>
+                      </div>
+
+                      <!-- Divider -->
+                      <hr class="my-5">
+
+                      <!-- Footer -->
+                      <div class="row align-items-center">
+                        <div class="col-auto">
+
+                          <!-- Button -->
+                          <button class="btn btn-lg btn-white" type="reset">Cancel</button>
+
+                        </div>
+                        <div class="col text-center">
+
+                          <!-- Step -->
+                          <h6 class="text-uppercase text-soft-purple mb-0">Step 1 of 3</h6>
+
+                        </div>
+                        <div class="col-auto">
+
+                          <!-- Button -->
+                          <a class="btn btn-lg bg-purple" data-toggle="wizard" href="#wizardStepTwo">Done</a>
+
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="wizardStepTwo" role="tabpanel" aria-labelledby="wizardTabTwo">
+
+                      <!-- Header -->
+                      <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+
+                          <!-- Pretitle -->
+                          <h6 class="mb-4 text-uppercase text-soft-purple">
+                            Step 2 of 3
+                          </h6>
+
+                          <!-- Title -->
+                          <h1 class="mb-3">
+                            Buy crypto
+                          </h1>
+
+                          <!-- Subtitle -->
+                          <p class="mb-5 text-soft-purple">
+                            Buying Synthetic assets (Synth) requires ETH (Ethereum’s native cryptocurrency). You can buy ETH with your credit card via Wyre or Argent. Then, you can swap your ETH to sUSD via Argent to be ready to trade.
+                          </p>
+
+                        </div>
+                      </div>
+                      <div class="row justify-content-center justify-content-lg-start">
+                        <div class="col-6 col-lg">
+                          <a href="#" data-toggle="modal" data-target="#onboarding-0" id="buy">
+                            <div class="card bg-purple lift">
+                              <div class="card-body text-center p-3">
+                                <img class="mb-3" src="assets/img/WyreLogoColor.svg" alt="" height="24">
+                                <h2 class="h4 text-white">
+                                  Buy via Wyre
+                                </h2>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="col-6 col-lg">
+                          <a class="lift" href="https://www.argent.xyz/" data-toggle="modal" data-target="#onboarding-1">
+                            <div class="card bg-dark-violet lift">
+                              <div class="card-body p-3 text-center">
+                                <img class="mb-3" src="assets/img/argent-logo.svg" alt="" height="24">
+                                <h2 class="h4 text-white">
+                                  Buy via Argent
+                                </h2>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div id="wyre-dropin-widget-container"></div>
+
+                      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                      <script src="https://verify.sendwyre.com/js/verify-module-init-beta.js"></script>
+                      <script type="text/javascript">
+                          (function($) {
+
+                              // debit card popup
+                              var widget = new Wyre({
+                                  env: 'test',
+                                  operation: {
+                                      type: 'debitcard-hosted-dialog',
+                                      dest: "ethereum:0x98B031783d0efb1E65C4072C6576BaCa0736A912",
+                                      destCurrency: "ETH",
+                                      sourceAmount: 10.0,
+                                      paymentMethod: 'debit-card'
+                                  }
+                              });
+
+                              widget.on("exit", function (e) {
+                                  console.log("exit", e);
+                              })
+
+                              widget.on("error", function (e) {
+                                  console.log("error", e);
+                              })
+
+                              widget.on("complete", function (e) {
+                                  console.log("complete", e );
+                              });
+
+                              widget.on('ready', function(e) {
+                                  console.log("ready", e );
+                                  // widget.open();
+                              })
+
+                              $('#buy').click(function(){
+                                  console.log('open')
+                                  widget.open();
+                              })
+
+                          })(jQuery);
+                      </script>
+
+                      <!-- Divider -->
+                      <hr class="my-5">
+
+                      <!-- Footer -->
+                      <div class="row align-items-center">
+                        <div class="col-auto">
+
+                          <!-- Button -->
+                          <a class="btn btn-lg btn-white" data-toggle="wizard" href="#wizardStepOne">Back</a>
+
+                        </div>
+                        <div class="col text-center">
+
+                          <!-- Step -->
+                          <h6 class="text-uppercase text-soft-purple mb-0">Step 2 of 3</h6>
+
+                        </div>
+                        <div class="col-auto">
+
+                          <!-- Button -->
+                          <a class="btn btn-lg bg-purple" data-toggle="wizard" href="#wizardStepThree">Done</a>
+
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="wizardStepThree" role="tabpanel" aria-labelledby="wizardTabThree">
+
+                      <!-- Header -->
+                      <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+
+                          <!-- Pretitle -->
+                          <h6 class="mb-4 text-uppercase text-soft-purple">
+                            Step 3 of 3
+                          </h6>
+
+                          <!-- Title -->
+                          <h1 class="mb-3">
+                            Connect Argent to Synthetix.exchange
+                          </h1>
+
+                        </div>
+                      </div> <!-- / .row -->
+
+                      <div class="list-group list-group-flush list-group-activity my-5">
+                        <div class="list-group-item">
+                          <div class="row">
+                            <div class="col-auto">
+
+                              <!-- Avatar -->
+                              <div class="avatar avatar-sm">
+                                <div class="avatar-title font-size-lg bg-purple rounded-circle text-white">
+                                  1
+                                </div>
+                              </div>
+
+                            </div>
+                            <div class="col ml-n2 d-flex align-items-center">
+
+                              <!-- Heading -->
+                              <p class="mb-0">
+                                Open <a href="https://synthetix.exchange/" target="_blank">synthetix.exchange</a> on your laptop and look for the option to connect a wallet.
+                              </p>
+
+                            </div>
+                          </div> <!-- / .row -->
+                        </div>
+                        <div class="list-group-item">
+                          <div class="row">
+                            <div class="col-auto">
+
+                              <!-- Avatar -->
+                              <div class="avatar avatar-sm">
+                                <div class="avatar-title font-size-lg bg-purple rounded-circle text-white">
+                                  2
+                                </div>
+                              </div>
+
+                            </div>
+                            <div class="col ml-n2 d-flex align-items-center">
+
+                              <!-- Heading -->
+                              <p class="mb-0">
+                                Select WalletConnect among the connect options. You will be presented with a QR code.
+                              </p>
+
+                            </div>
+                          </div> <!-- / .row -->
+                        </div>
+                        <div class="list-group-item">
+                          <div class="row">
+                            <div class="col-auto">
+
+                              <!-- Avatar -->
+                              <div class="avatar avatar-sm">
+                                <div class="avatar-title font-size-lg bg-purple rounded-circle text-white">
+                                  3
+                                </div>
+                              </div>
+
+                            </div>
+                            <div class="col ml-n2 d-flex align-items-center">
+
+                              <!-- Heading -->
+                              <p class="mb-0">
+                                Open your Argent app and tap Scan on your Assets screen at the top.
+                              </p>
+
+                            </div>
+                          </div> <!-- / .row -->
+                        </div>
+                        <div class="list-group-item">
+                          <div class="row">
+                            <div class="col-auto">
+
+                              <!-- Avatar -->
+                              <div class="avatar avatar-sm">
+                                <div class="avatar-title font-size-lg bg-purple rounded-circle text-white">
+                                  4
+                                </div>
+                              </div>
+
+                            </div>
+                            <div class="col ml-n2 d-flex align-items-center">
+
+                              <!-- Heading -->
+                              <p class="mb-0">
+                                Scan the QR code. You will be prompted to authorize the Dapp in your Argent wallet.
+                              </p>
+
+                            </div>
+                          </div> <!-- / .row -->
+                        </div>
+                      </div>
+
+                      <!-- Footer -->
+                      <div class="row align-items-center">
+                        <div class="col-auto">
+
+                          <!-- Button -->
+                          <a class="btn btn-lg btn-white" data-toggle="wizard" href="#wizardStepTwo">Back</a>
+
+                        </div>
+                        <div class="col text-center">
+
+                          <!-- Step -->
+                          <h6 class="text-uppercase text-soft-purple mb-0">Step 3 of 3</h6>
+
+                        </div>
+                        <div class="col-auto">
+
+                          <!-- Button -->
+                          <a class="btn btn-lg bg-purple" href="https://synthetix.exchange/" target="_blank">Trade</a>
+
+                        </div>
+                      </div>
+
+                    </div>
+                  </form>
+                  <h2 id="faq">Frequently Asked Questions</h2>
+                  <div class="card card-inactive mb-6">
+                    <div class="card-body">
+                      <h3>What does blockchain technology mean?</h3>
+                      <p class="text-soft-purple mb-4">Synthetix exists on the <a class="text-white" href="https://ethereum.org/" target="_blank">Ethereum blockchain</a>, which uses similar technology to Bitcoin to guarantee that you own and control your trades. To interact with the Ethereum blockchain, you need a wallet like Argent.</p>
+                      <h3>Why the Ethereum blockchain?</h3>
+                      <p class="text-soft-purple mb-4">Ethereum is a general-purpose blockchain with smart contracts that enable programmable tokens, like Synth tokens, which represents the synthetic assets in Synthetix.</p>
+                      <h3>How is this built?</h3>
+                      <p class="text-soft-purple">On Ethereum, Synthetix is run by a suite of smart contracts that manage your balances and trades.</p>
+                      <p class="text-soft-purple mb-4">Synthetix smart contracts are audited and secured by <a class="text-white" href="https://docs.synthetix.io/contracts/audits/">different audit partners</a>.</p>
+                      <h3>What is gas?</h3>
+                      <p class="text-soft-purple mb-4">Transactions related to your Synth trades on Ethereum cost “gas”, which are micro amounts of Ethereum’s native cryptocurrency (Ether).</p>
+                      <a class="text-white" href="https://help.synthetix.io/hc/en-us/sections/360005959933-Synthetix-Exchange" target="_blank">Need more help?</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-lg-inline-block w-lg-40 position-fixed d-none">
+              <div class="bg-white vh-100 p-4">
+                <div class="row justify-content-center">
+                  <div class="col-10">
+                    <h2 class="text-dark">The Ethereum blockchain</h2>
+                    <div class="list-group list-group-flush">
+                      <div class="list-group-item border-0">
+                        <div class="row">
+                          <div class="col-auto">
+
+                            <!-- Avatar -->
+                            <div class="avatar avatar-sm">
+                              <div class="avatar-title font-size-lg rounded-circle text-white">
+                                <i class="fe fe-shield"></i>
+                              </div>
+                            </div>
+
+                          </div>
+                          <div class="col ml-n2">
+
+                            <!-- Heading -->
+                            <p class="mb-0 text-secondary">
+                              Synthetix exists on the <a href="https://ethereum.org/" target="_blank">Ethereum blockchain</a>, which uses similar technology to Bitcoin to guarantee that you own and control your trades. To interact with the Ethereum blockchain, you need a wallet like Argent.
+                            </p>
+
+                          </div>
+                        </div> <!-- / .row -->
+                      </div>
+                      <div class="list-group-item">
+                        <div class="row">
+                          <div class="col-auto">
+
+                            <!-- Avatar -->
+                            <div class="avatar avatar-sm">
+                              <div class="avatar-title font-size-lg rounded-circle text-white">
+                                <i class="fe fe-droplet"></i>
+                              </div>
+                            </div>
+
+                          </div>
+                          <div class="col ml-n2">
+
+                            <!-- Heading -->
+                            <p class="mb-0 text-secondary">
+                              Transactions related to your Synths trades on Ethereum cost “gas”, which are micro amounts of Ethereum’s native cryptocurrency (Ether).
+                            </p>
+
+                          </div>
+                        </div> <!-- / .row -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- / modal -->
+
+
+    <!-- Modal: deposit money -->
+    <!-- IDEA: modal modal-onboarding-staking -->
+    <div class="modal fade fixed-right" id="modal-onboarding-staking" tabindex="-1" role="dialog" aria-labelledby="modal-onboarding-staking" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-vertical bg-white" role="document">
+        <div class="modal-content bg-violet">
+          <div class="modal-body p-lg-0">
+            <div class="d-inline-block w-lg-60">
+              <button class="btn btn-link text-white position-absolute mt-n4 ml-n4 ml-lg-0 mt-lg-0" type="button" name="button" data-dismiss="modal" aria-label="Close">
+                <i class="fe fe-arrow-left h2"></i>
+              </button>
+              <div class="row justify-content-center">
+                <div class="col col-lg-8 py-4">
+                  <form class="tab-content pt-3 pb-6" id="wizardSteps">
+                    <div class="tab-pane fade show active" id="wizardStepFour" role="tabpanel" aria-labelledby="wizardTabFour">
+
+                      <!-- Header -->
+                      <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+
+                          <!-- Pretitle -->
+                          <h6 class="mb-4 text-uppercase text-soft-purple">
+                            Step 1 of 5
+                          </h6>
+
+                          <!-- Title -->
+                          <h1 class="mb-3">
+                            Let’s get you a wallet to stake
+                          </h1>
+
+                          <!-- Subtitle -->
+                          <p class="mb-5 text-soft-purple">
+                            The simplest way to earn staking rewards on Synthetix is to create a wallet with Argent wallet. Learn why in our <a class="text-white" href="#faq">FAQ</a>.
+                          </p>
+
+                        </div>
+                      </div> <!-- / .row -->
+                      <div class="avatar avatar-lg d-block mx-auto mb-4">
+                        <img src="assets/img/argent-animated-logo.gif" class="avatar-img rounded-circle" alt="Argent logo">
+                      </div>
+                      <p class="text-soft-purple text-center small">Download the app</p>
+                      <div class="row no-gutters align-items-center justify-content-center mx-n3 mb-5">
+                        <div class="col-auto col-lg-auto mb-lg-0">
+                          <a href="https://apps.apple.com/us/app/argent/id1358741926" target="_blank">
+                            <img class="lift d-none d-lg-block" src="assets/img/btn_app-store.svg" alt="" height="48">
+                            <img class="lift d-block d-lg-none mx-auto" src="assets/img/btn_app-store.svg" alt="" height="40">
+                          </a>
+                        </div>
+                        <div class="col-auto col-lg-auto pl-2 pl-lg-3">
+                          <a href="https://play.google.com/store/apps/details?id=im.argent.contractwalletclient" target="_blank">
+                            <img class="lift d-none d-lg-block" src="assets/img/btn_play-store.svg" alt="" height="48">
+                            <img class="lift d-block d-lg-none mx-auto" src="assets/img/btn_play-store.svg" alt="" height="40">
+                          </a>
+                        </div>
+                      </div>
+                      <div class="list-group list-group-flush d-block d-lg-none">
+                        <div class="list-group-item border-0">
+                          <div class="row">
+                            <div class="col-auto">
+
+                              <!-- Avatar -->
+                              <div class="avatar avatar-sm">
+                                <div class="avatar-title font-size-lg rounded-circle text-white">
+                                  <i class="fe fe-shield"></i>
+                                </div>
+                              </div>
+
+                            </div>
+                            <div class="col ml-n2">
+
+                              <!-- Heading -->
+                              <p class="mb-0 text-white">
+                                Synthetix exists on the <a class="text-decoration-underline text-white" href="https://ethereum.org/" target="_blank">Ethereum blockchain</a>, which uses similar technology to Bitcoin to guarantee that ownership and control of your tickets rest with you. To interact with the Ethereum blockchain, you need a wallet like Argent.
+                              </p>
+
+                            </div>
+                          </div> <!-- / .row -->
+                        </div>
+                        <div class="list-group-item border-0">
+                          <div class="row">
+                            <div class="col-auto">
+
+                              <!-- Avatar -->
+                              <div class="avatar avatar-sm">
+                                <div class="avatar-title font-size-lg rounded-circle text-white">
+                                  <i class="fe fe-smartphone"></i>
+                                </div>
+                              </div>
+
+                            </div>
+                            <div class="col ml-n2">
+
+                              <!-- Heading -->
+                              <p class="mb-0 text-white">
+                                Transactions related to your Synthetix tickets purchased on Ethereum cost “gas”, which are micro amounts of Ethereum’s native cryptocurrency (Ether). Since most new users do not have Ether already, we strongly invite you to use <a class="text-decoration-underline text-white" href="http://argent.xyz/" target="_blank">Argent wallet</a> that will cover your cost of gas while using Synthetix. (Using other <a class="text-decoration-underline text-white" href="https://ethereum.org/wallets/" target="_blank">Ethereum wallets</a> may require you to pay for gas costs yourselves).
+                              </p>
+
+                            </div>
+                          </div> <!-- / .row -->
+                        </div>
+                      </div>
+
+                      <!-- Divider -->
+                      <hr class="my-5">
+
+                      <!-- Footer -->
+                      <div class="row align-items-center">
+                        <div class="col-auto">
+
+                          <!-- Button -->
+                          <button class="btn btn-lg btn-white" type="reset">Cancel</button>
+
+                        </div>
+                        <div class="col text-center">
+
+                          <!-- Step -->
+                          <h6 class="text-uppercase text-soft-purple mb-0">Step 1 of 5</h6>
+
+                        </div>
+                        <div class="col-auto">
+
+                          <!-- Button -->
+                          <a class="btn btn-lg bg-purple" data-toggle="wizard" href="#wizardStepFive">Done</a>
+
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="wizardStepFive" role="tabpanel" aria-labelledby="wizardTabFive">
+
+                      <!-- Header -->
+                      <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+
+                          <!-- Pretitle -->
+                          <h6 class="mb-4 text-uppercase text-soft-purple">
+                            Step 2 of 5
+                          </h6>
+
+                          <!-- Title -->
+                          <h1 class="mb-3">
+                            Buy crypto
+                          </h1>
+
+                          <!-- Subtitle -->
+                          <p class="mb-5 text-soft-purple">
+                            Earning staking reward on Synthetic requires ETH (Ethereum’s native cryptocurrency). You can buy ETH with your credit card via Wyre or Argent. Then, you can swap your ETH to SNX via Argent to be ready to stake.
+                          </p>
+
+                        </div>
+                      </div>
+                      <div class="row justify-content-center justify-content-lg-start">
+                        <div class="col-6 col-lg">
+                          <a href="#" data-toggle="modal" data-target="#onboarding-0" id="buy1">
+                            <div class="card bg-purple lift">
+                              <div class="card-body text-center p-3">
+                                <img class="mb-3" src="assets/img/WyreLogoColor.svg" alt="" height="24">
+                                <h2 class="h4 text-white">
+                                  Buy via Wyre
+                                </h2>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <div class="col-6 col-lg">
+                          <a class="lift" href="https://www.argent.xyz/" data-toggle="modal" data-target="#onboarding-1">
+                            <div class="card bg-dark-violet lift">
+                              <div class="card-body p-3 text-center">
+                                <img class="mb-3" src="assets/img/argent-logo.svg" alt="" height="24">
+                                <h2 class="h4 text-white">
+                                  Buy via Argent
+                                </h2>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div id="wyre-dropin-widget-container"></div>
+
+                      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                      <script src="https://verify.sendwyre.com/js/verify-module-init-beta.js"></script>
+                      <script type="text/javascript">
+                          (function($) {
+
+                              // debit card popup
+                              var widget = new Wyre({
+                                  env: 'test',
+                                  operation: {
+                                      type: 'debitcard-hosted-dialog',
+                                      dest: "ethereum:0x98B031783d0efb1E65C4072C6576BaCa0736A912",
+                                      destCurrency: "ETH",
+                                      sourceAmount: 10.0,
+                                      paymentMethod: 'debit-card'
+                                  }
+                              });
+
+                              widget.on("exit", function (e) {
+                                  console.log("exit", e);
+                              })
+
+                              widget.on("error", function (e) {
+                                  console.log("error", e);
+                              })
+
+                              widget.on("complete", function (e) {
+                                  console.log("complete", e );
+                              });
+
+                              widget.on('ready', function(e) {
+                                  console.log("ready", e );
+                                  // widget.open();
+                              })
+
+                              $('#buy1').click(function(){
+                                  console.log('open')
+                                  widget.open();
+                              })
+
+                          })(jQuery);
+                      </script>
+
+                      <!-- Divider -->
+                      <hr class="my-5">
+
+                      <!-- Footer -->
+                      <div class="row align-items-center">
+                        <div class="col-auto">
+
+                          <!-- Button -->
+                          <a class="btn btn-lg btn-white" data-toggle="wizard" href="#wizardStepFour">Back</a>
+
+                        </div>
+                        <div class="col text-center">
+
+                          <!-- Step -->
+                          <h6 class="text-uppercase text-soft-purple mb-0">Step 2 of 5</h6>
+
+                        </div>
+                        <div class="col-auto">
+
+                          <!-- Button -->
+                          <a class="btn btn-lg bg-purple" data-toggle="wizard" href="#wizardStepSix">Done</a>
+
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="wizardStepSix" role="tabpanel" aria-labelledby="wizardTabSix">
+
+                      <!-- Header -->
+                      <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+
+                          <!-- Pretitle -->
+                          <h6 class="mb-4 text-uppercase text-soft-purple">
+                            Step 3 of 5
+                          </h6>
+
+                          <!-- Title -->
+                          <h1 class="mb-3">
+                            Connect Argent to Mintr
+                          </h1>
+
+
+                        </div>
+                      </div> <!-- / .row -->
+
+                      <div class="list-group list-group-flush list-group-activity my-5">
+                        <div class="list-group-item">
+                          <div class="row">
+                            <div class="col-auto">
+
+                              <!-- Avatar -->
+                              <div class="avatar avatar-sm">
+                                <div class="avatar-title font-size-lg bg-purple rounded-circle text-white">
+                                  1
+                                </div>
+                              </div>
+
+                            </div>
+                            <div class="col ml-n2 d-flex align-items-center">
+
+                              <!-- Heading -->
+                              <p class="mb-0">
+                                Open <a href="https://mintr.synthetix.io/" target="_blank">mintr.synthetix.io</a> on your laptop and look for the option to connect a wallet.
+                              </p>
+
+                            </div>
+                          </div> <!-- / .row -->
+                        </div>
+                        <div class="list-group-item">
+                          <div class="row">
+                            <div class="col-auto">
+
+                              <!-- Avatar -->
+                              <div class="avatar avatar-sm">
+                                <div class="avatar-title font-size-lg bg-purple rounded-circle text-white">
+                                  2
+                                </div>
+                              </div>
+
+                            </div>
+                            <div class="col ml-n2 d-flex align-items-center">
+
+                              <!-- Heading -->
+                              <p class="mb-0">
+                                Select WalletConnect among the connect options. You will be presented with a QR code.
+                              </p>
+
+                            </div>
+                          </div> <!-- / .row -->
+                        </div>
+                        <div class="list-group-item">
+                          <div class="row">
+                            <div class="col-auto">
+
+                              <!-- Avatar -->
+                              <div class="avatar avatar-sm">
+                                <div class="avatar-title font-size-lg bg-purple rounded-circle text-white">
+                                  3
+                                </div>
+                              </div>
+
+                            </div>
+                            <div class="col ml-n2 d-flex align-items-center">
+
+                              <!-- Heading -->
+                              <p class="mb-0">
+                                Open your Argent app and tap Scan on your Assets screen at the top.
+                              </p>
+
+                            </div>
+                          </div> <!-- / .row -->
+                        </div>
+                        <div class="list-group-item">
+                          <div class="row">
+                            <div class="col-auto">
+
+                              <!-- Avatar -->
+                              <div class="avatar avatar-sm">
+                                <div class="avatar-title font-size-lg bg-purple rounded-circle text-white">
+                                  4
+                                </div>
+                              </div>
+
+                            </div>
+                            <div class="col ml-n2 d-flex align-items-center">
+
+                              <!-- Heading -->
+                              <p class="mb-0">
+                                Scan the QR code. You will be prompted to authorize the Dapp in your Argent wallet.
+                              </p>
+
+                            </div>
+                          </div> <!-- / .row -->
+                        </div>
+                      </div>
+
+                      <!-- Footer -->
+                      <div class="row align-items-center">
+                        <div class="col-auto">
+
+                          <!-- Button -->
+                          <a class="btn btn-lg btn-white" data-toggle="wizard" href="#wizardStepFive">Back</a>
+
+                        </div>
+                        <div class="col text-center">
+
+                          <!-- Step -->
+                          <h6 class="text-uppercase text-soft-purple mb-0">Step 3 of 5</h6>
+
+                        </div>
+                        <div class="col-auto">
+
+                          <!-- Button -->
+                          <a class="btn btn-lg bg-purple" data-toggle="wizard" href="#wizardStepSeven">Done</a>
+
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="wizardStepSeven" role="tabpanel" aria-labelledby="wizardTabSeven">
+
+                      <!-- Header -->
+                      <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+
+                          <!-- Pretitle -->
+                          <h6 class="mb-4 text-uppercase text-soft-purple">
+                            Step 4 of 5
+                          </h6>
+
+                          <!-- Title -->
+                          <h1 class="mb-3">
+                            Staking your SNX to mint sUSD
+                          </h1>
+
+                          <!-- Subtitle -->
+                          <p class="mb-3 text-soft-purple">
+                            SNX holders stake SNX in return for fees from the Synthetix exchange and rewards from the system’s inflationary monetary policy.
+                          </p>
+
+                        </div>
+                      </div> <!-- / .row -->
+
+                      <div class="list-group list-group-flush list-group-activity my-5">
+                        <div class="list-group-item">
+                          <div class="row">
+                            <div class="col-auto">
+
+                              <!-- Avatar -->
+                              <div class="avatar avatar-sm">
+                                <div class="avatar-title font-size-lg bg-purple rounded-circle text-white">
+                                  1
+                                </div>
+                              </div>
+
+                            </div>
+                            <div class="col ml-n2 d-flex align-items-center">
+
+                              <!-- Heading -->
+                              <p class="mb-0">
+                                If you have staked your SNX and minted sUSD, you are eligible to collect two kinds of rewards: SNX staking rewards, and Synth exchange rewards generated on Synthetix.Exchange.
+                              </p>
+
+                            </div>
+                          </div> <!-- / .row -->
+                        </div>
+                        <div class="list-group-item">
+                          <div class="row">
+                            <div class="col-auto">
+
+                              <!-- Avatar -->
+                              <div class="avatar avatar-sm">
+                                <div class="avatar-title font-size-lg bg-purple rounded-circle text-white">
+                                  2
+                                </div>
+                              </div>
+
+                            </div>
+                            <div class="col ml-n2 d-flex align-items-center">
+
+                              <!-- Heading -->
+                              <p class="mb-0">
+                                Vest your SNX staking rewards in escrow. If you have staked your SNX and minted sUSD, you are eligible to receive SNX staking rewards, which you can vest here after they have been escrowed for 12 months.
+                              </p>
+
+                            </div>
+                          </div> <!-- / .row -->
+                        </div>
+                        <div class="list-group-item">
+                          <div class="row">
+                            <div class="col-auto">
+
+                              <!-- Avatar -->
+                              <div class="avatar avatar-sm">
+                                <div class="avatar-title font-size-lg bg-purple rounded-circle text-white">
+                                  3
+                                </div>
+                              </div>
+
+                            </div>
+                            <div class="col ml-n2 d-flex align-items-center">
+
+                              <!-- Heading -->
+                              <p class="mb-0">
+                                Claim your rewards. You must be within 1% of the Target Collateralization Ratio. If you are below this figure, you will be blocked from claiming rewards until you burn enough sUSD.
+                              </p>
+
+                            </div>
+                          </div> <!-- / .row -->
+                        </div>
+                      </div>
+                      <p class="small text-soft-purple">Note: if not collected within 7 days, your rewards will be forfeited and rolled over into the fee pool.</p>
+
+                      <!-- Footer -->
+                      <div class="row align-items-center">
+                        <div class="col-auto">
+
+                          <!-- Button -->
+                          <a class="btn btn-lg btn-white" data-toggle="wizard" href="#wizardStepSix">Back</a>
+
+                        </div>
+                        <div class="col text-center">
+
+                          <!-- Step -->
+                          <h6 class="text-uppercase text-soft-purple mb-0">Step 4 of 5</h6>
+
+                        </div>
+                        <div class="col-auto">
+
+                          <!-- Button -->
+                          <a class="btn btn-lg bg-purple" data-toggle="wizard" href="#wizardStepEight">Done</a>
+
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="tab-pane fade" id="wizardStepEight" role="tabpanel" aria-labelledby="wizardTabEight">
+
+                      <!-- Header -->
+                      <div class="row justify-content-center">
+                        <div class="col-12 text-center">
+
+                          <!-- Pretitle -->
+                          <h6 class="mb-4 text-uppercase text-soft-purple">
+                            Step 5 of 5
+                          </h6>
+
+                          <!-- Title -->
+                          <h1 class="mb-3">
+                            LP rewards
+                          </h1>
+
+                          <!-- Subtitle -->
+                          <p class="mb-3 text-soft-purple">
+                            Earn more rewards by becoming a liquidity provider of sETH, sUSD, iETH on Unipool, Curvepool, and iETH.
+                          </p>
+
+                        </div>
+                      </div> <!-- / .row -->
+
+                      <!-- Footer -->
+                      <div class="row align-items-center">
+                        <div class="col-auto">
+
+                          <!-- Button -->
+                          <a class="btn btn-lg btn-white" data-toggle="wizard" href="#wizardStepSeven">Back</a>
+
+                        </div>
+                        <div class="col text-center">
+
+                          <!-- Step -->
+                          <h6 class="text-uppercase text-soft-purple mb-0">Step 5 of 5</h6>
+
+                        </div>
+                        <div class="col-auto">
+
+                          <!-- Button -->
+                          <a class="btn btn-lg bg-purple" href="https://mintr.synthetix.io/" target="_blank">Stake</a>
+
+                        </div>
+                      </div>
+
+                    </div>
+                  </form>
+                  <h2 id="faq">Frequently Asked Questions</h2>
+                  <div class="card card-inactive mb-6">
+                    <div class="card-body">
+                      <h3>What does blockchain technology mean?</h3>
+                      <p class="text-soft-purple mb-4">Synthetix exists on the <a class="text-white" href="https://ethereum.org/" target="_blank">Ethereum blockchain</a>, which uses similar technology to Bitcoin to guarantee that you own and control your trades. To interact with the Ethereum blockchain, you need a wallet like Argent.</p>
+                      <h3>Why the Ethereum blockchain?</h3>
+                      <p class="text-soft-purple mb-4">Ethereum is a general-purpose blockchain with smart contracts that enable programmable tokens, like Synth tokens, which represents the synthetic assets in Synthetix.</p>
+                      <h3>How is this built?</h3>
+                      <p class="text-soft-purple">On Ethereum, Synthetix is run by a suite of smart contracts that manage your balances and trades.</p>
+                      <p class="text-soft-purple mb-4">Synthetix smart contracts are audited and secured by <a class="text-white" href="https://docs.synthetix.io/contracts/audits/">different audit partners</a>.</p>
+                      <h3>What is gas?</h3>
+                      <p class="text-soft-purple mb-4">Transactions related to your Synth trades on Ethereum cost “gas”, which are micro amounts of Ethereum’s native cryptocurrency (Ether).</p>
+                      <a class="text-white" href="https://help.synthetix.io/hc/en-us/sections/360005942114-Staking" target="_blank">Need more help?</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-lg-inline-block w-lg-40 position-fixed d-none">
+              <div class="bg-white vh-100 p-4">
+                <div class="row justify-content-center">
+                  <div class="col-10">
+                    <h2 class="text-dark">The Ethereum blockchain</h2>
+                    <div class="list-group list-group-flush">
+                      <div class="list-group-item border-0">
+                        <div class="row">
+                          <div class="col-auto">
+
+                            <!-- Avatar -->
+                            <div class="avatar avatar-sm">
+                              <div class="avatar-title font-size-lg rounded-circle text-white">
+                                <i class="fe fe-shield"></i>
+                              </div>
+                            </div>
+
+                          </div>
+                          <div class="col ml-n2">
+
+                            <!-- Heading -->
+                            <p class="mb-0 text-secondary">
+                              Synthetix exists on the <a href="https://ethereum.org/" target="_blank">Ethereum blockchain</a>, which uses similar technology to Bitcoin to guarantee that you own and control your trades. To interact with the Ethereum blockchain, you need a wallet like Argent.
+                            </p>
+
+                          </div>
+                        </div> <!-- / .row -->
+                      </div>
+                      <div class="list-group-item">
+                        <div class="row">
+                          <div class="col-auto">
+
+                            <!-- Avatar -->
+                            <div class="avatar avatar-sm">
+                              <div class="avatar-title font-size-lg rounded-circle text-white">
+                                <i class="fe fe-droplet"></i>
+                              </div>
+                            </div>
+
+                          </div>
+                          <div class="col ml-n2">
+
+                            <!-- Heading -->
+                            <p class="mb-0 text-secondary">
+                              Transactions related to your staking on Ethereum cost “gas”, which are micro amounts of Ethereum’s native cryptocurrency (Ether).
+                            </p>
+
+                          </div>
+                        </div> <!-- / .row -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- / modal -->
+
+
+    <!-- Modal: video -->
+    <!-- IDEA: modal video -->
+    <div class="modal fade fixed-right" id="video" tabindex="-1" role="dialog" aria-labelledby="video" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-vertical" role="document">
+        <div class="modal-content bg-violet">
+          <div class="modal-body p-0 m-0">
+            <button type="button" class="btn btn-white btn-lg btn-rounded-circle text-dark position-absolute m-2" data-dismiss="modal" aria-label="Close">
+              <span class="fe fe-x text-white" aria-hidden="true"></span>
+            </button>
+            <iframe class="border-0" width="100%" height="100%" src=""></iframe>
+          </div>
+        </div>
+      </div>
+    </div><!-- / modal -->
+
+
+
+    <nav class="navbar border-0 bg-dark-violet">
+      <div class="container align-items-center px-0 px-lg-3">
+        <a class="mr-auto d-block" href="https://www.synthetix.io/">
+          <img class="d-none d-lg-flex" src="assets/img/Synthetix_logo_text.svg" alt="Synthetix_logo_text" height="24">
+          <img class="d-flex d-lg-none" src="assets/img/synthetix_logo_101.svg" alt="Synthetix_logo_101" height="36">
+        </a>
+        <div class="d-flex align-items-center">
+          <a class="btn btn-white rounded-xl d-flex align-items-center lift mr-2 mr-lg-3" href="https://synthetix.exchange/" target="_blank">
+            <img class="mr-2" src="assets/img/synthetix_logo.svg" alt="synthetix_logo" height="24">
+            Trade
+          </a>
+          <a class="btn btn-white rounded-xl d-flex align-items-center lift" href="https://mintr.synthetix.io/" target="_blank">
+            <img class="mr-2 " src="assets/img/mintr_logo.svg" alt="mintr_logo" height="24">
+            Earn <span class="d-none d-lg-flex ml-2">rewards</span>
+          </a>
+        </div>
+
+      </div>
+    </nav>
+
+    <!-- MAIN CONTENT
+    ================================================== -->
+    <div class="main-content bg-light">
+      <div class="bg-ellipses bg-dark-violet-curved pb-4 pb-lg-7">
+
+        <!-- HEADER -->
+        <div class="header">
+          <div class="container">
+
+            <!-- Body -->
+            <div class="header-body border-0">
+              <div class="row justify-content-center text-center">
+                <div class="col col-lg-8">
+                  <h6 class="text-uppercase text-soft-purple mb-2">
+                    Meet Synthetix
+                  </h6>
+                  <!-- Title -->
+                  <h1 class="header-title display-3 mt-4 mb-2 d-none d-lg-block">
+                    A synthetic asset issuance protocol built on Ethereum blockchain.
+                  </h1>
+                  <h1 class="header-title display-4 mt-4 mb-4 d-block d-lg-none">
+                    Synthetix is a synthetic asset issuance protocol built on Ethereum blockchain.
+                  </h1>
+                  <p class="lead text-soft-purple mb-4">Get exposure to fiat currencies, cryptocurrencies (long and short), precious metals, stocks, and indices without liquidity and slippage issues.</p>
+                  <div class="row my-5 flex justify-content-center">
+                    <div class="col-auto mb-4 mb-lg-0">
+                      <!-- Title -->
+                      <h6 class="text-uppercase text-soft-purple mb-2">
+                        24h trading volume
+                      </h6>
+
+                      <!-- Heading -->
+                      <span class="h2 text-soft-success mb-0 mr-2">
+                        $309,648 USD
+                      </span>
+                    </div>
+                    <div class="col-auto">
+                      <!-- Title -->
+                      <h6 class="text-uppercase text-soft-purple mb-2">
+                        CURRENT REWARDS POOL
+                      </h6>
+
+                      <!-- Heading -->
+                      <span class="h2 text-soft-success mb-0 mr-2">
+                        $21,640 USD
+                      </span>
+                    </div>
+                  </div>
+              </div> <!-- / .col -->
+            </div>
+            <div class="row justify-content-center mt-n6 mt-lg-0">
+              <div class="col-10 col-lg-8 d-flex justify-content-center align-items-center" style="min-height: 300px; background-image: url(assets/img/exchange-5f4ee08a2c5b3825a9d41170a1bd4fbb.png);background-repeat: no-repeat; background-size: contain;background-position:center">
+                <a class="btn btn-lg btn-white-opacity btn-rounded-circle align-items-center d-flex justify-content-center lift mx-auto" href="#" data-toggle="modal" data-target="#video" data-theVideo="https://www.youtube.com/embed/MKVLvlk_Lhs">
+                  <i class="fe fe-play display-3"></i>
+                </a>
+              </div>
+            </div> <!-- / .row -->
+            </div> <!-- / .header-body -->
+
+          </div>
+        </div> <!-- / .header -->
+      </div>
+
+      <!-- CARDS -->
+      <div class="container mt-n7">
+        <div class="row justify-content-center mb-6">
+          <div class="col-12 col-lg-8 text-center">
+            <h6 class="text-uppercase text-soft-purple mb-4">
+              Get started
+            </h6>
+            <div class="row justify-content-center justify-content-lg-start">
+              <div class="col-6 col-lg">
+                <a href="#" data-toggle="modal" data-target="#modal-onboarding-exchange">
+                  <div class="card bg-purple lift" style="min-height: 104px">
+                    <div class="card-body text-center p-3">
+                      <div class="btn btn-rounded-circle mb-3">
+                        <img src="assets/img/synthetix_logo.svg" alt="" height="36">
+                      </div>
+                      <h2 class="h4 text-white">
+                        Trade on Synthetix
+                      </h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-6 col-lg">
+                <a class="lift" href="#" data-toggle="modal" data-target="#modal-onboarding-staking">
+                  <div class="card bg-violet lift" style="min-height: 104px">
+                    <div class="card-body p-3 text-center">
+                      <div class="btn btn-rounded-circle mb-3">
+                        <img src="assets/img/mintr_logo.svg" alt="" height="36">
+                      </div>
+                      <h2 class="h4 text-white">
+                        Earn staking rewards
+                      </h2>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <p class="text-center text-soft-purple align-items-center mb-0">I'm ready to start, <a class="text-white" href="https://synthetix.exchange/" target="_blank">trade</a> or <a class="text-white" href="https://mintr.synthetix.io/" target="_blank">stake</a></p>
+          </div>
+        </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-12 col-lg-8 text-center">
+
+            <h2 class="display-3 d-none d-lg-block">Overview of each asset available</h2>
+            <h2 class="display-4 d-block d-lg-none">Overview of each asset available</h2>
+            <p class="lead text-soft-purple mb-5">Synths track the prices of various assets (crypto, forex, equities, commodities), allowing crypto-native and unbanked users to trade P2C (peer-to-contract) on Synthetix Exchange without liquidity limitations.</p>
+
+            <div class="card mb-6">
+              <div class="card-header">
+
+                <!-- Title -->
+                <h4 class="card-header-title text-left">
+                  Some available Synths
+                </h4>
+
+                <!-- Button -->
+                <a class="small text-white" href="https://synthetix.exchange/#/markets" target="_blank">View all</a>
+
+              </div>
+              <div class="card-body mb-0">
+                <ul class="list-group list-group-lg list-group-flush text-left">
+                  <li class="list-group-item">Forex currencies (sUSD, sEUR, sJPY, sAUD, sGBP, sCHF)</li>
+                  <li class="list-group-item">Cryptocurrencies (sBTC, sETH, sBNB, sMKR, sTRX, sXTZ)</li>
+                  <li class="list-group-item">Inverse cryptocurrencies (iBTC, iETH, iBNB, iMKR, iTRX, iXTZ)</li>
+                  <li class="list-group-item">Commodities (sXAU, sXAG) *psst, gold and silver!</li>
+                  <li class="list-group-item">Indices (sCEX, sDeFi) - a basket of tokens and the inverse of it.</li>
+                </ul>
+              </div>
+            </div>
+            <p class="mb-0 text-soft-purple text-center small pb-4">Synthetix smart contracts are audited and secured by <a class="text-white" href="https://docs.synthetix.io/contracts/audits/">different audit partners</a>.</p>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </div><!-- / .main-content -->
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="./assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/libs/@shopify/draggable/lib/es5/draggable.bundle.legacy.js"></script>
+    <script src="./assets/libs/autosize/dist/autosize.min.js"></script>
+    <script src="./assets/libs/chart.js/dist/Chart.min.js"></script>
+    <script src="./assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+    <script src="./assets/libs/flatpickr/dist/flatpickr.min.js"></script>
+    <script src="./assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="./assets/libs/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+    <script src="./assets/libs/list.js/dist/list.min.js"></script>
+    <script src="./assets/libs/quill/dist/quill.min.js"></script>
+    <script src="./assets/libs/select2/dist/js/select2.full.min.js"></script>
+    <script src="./assets/libs/chart.js/Chart.extension.js"></script>
+
+    <!-- Map -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.min.js"></script>
+    <script src="./assets/js/dashkit.min.js"></script>
+
+
+  </body>
+</html>
